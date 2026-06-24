@@ -4,6 +4,13 @@
 
 GitHub Repository: [rebeccahsiang/---](https://github.com/rebeccahsiang/---)
 
+![LINE 交通資料視覺化機器人 QR code](./public/line-bot-qr.png)
+
+## 加入 LINE 好友
+
+- Bot basic ID: `@742pmned`
+- 掃描上方 QR code 即可加入好友，查看交通統計圖表與互動式資料卡片。
+
 ## 功能特色
 
 - LINE Webhook 接收使用者訊息
@@ -96,15 +103,15 @@ https://你的公開網址/linewebhook
 
 ## 主要路由
 
-| 路由 | 說明 |
-| --- | --- |
-| `/` | 專案首頁測試訊息 |
-| `/linewebhook` | LINE Bot Webhook 接收端 |
-| `/api/traffic-data` | 取得交通統計資料 |
-| `/chart` | 圓餅圖視覺化頁面 |
-| `/detail` | 折線圖視覺化頁面 |
-| `/form` | 簡易需求填寫表單 |
-| `/banner.jpg` | Flex Message 使用的橫幅圖片轉址 |
+| 路由                | 說明                            |
+| ------------------- | ------------------------------- |
+| `/`                 | 專案首頁測試訊息                |
+| `/linewebhook`      | LINE Bot Webhook 接收端         |
+| `/api/traffic-data` | 取得交通統計資料                |
+| `/chart`            | 圓餅圖視覺化頁面                |
+| `/detail`           | 折線圖視覺化頁面                |
+| `/form`             | 簡易需求填寫表單                |
+| `/banner.jpg`       | Flex Message 使用的橫幅圖片轉址 |
 
 ## 資料來源
 
